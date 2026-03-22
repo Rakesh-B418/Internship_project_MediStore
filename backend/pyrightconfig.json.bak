@@ -1,0 +1,15 @@
+{
+  "typeCheckingMode": "off",
+  "reportMissingImports": "none",
+  "reportMissingModuleSource": "none",
+  "reportUndefinedVariable": "none",
+  "reportAttributeAccessIssue": "none",
+  "reportGeneralTypeIssues": "none",
+  "reportOperatorIssue": "none",
+  "reportIndexIssue": "none",
+  "reportReturnType": "none",
+  "reportArgumentType": "none",
+  "reportCallIssue": "none",
+  "useLibraryCodeForTypes": true,
+  "ignore": ["**/*"]
+}

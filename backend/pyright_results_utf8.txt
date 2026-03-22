@@ -1,0 +1,7 @@
+﻿c:\Users\brake\OneDrive\Desktop\INTERN PROJECT\backend\test_debug.py
+  c:\Users\brake\OneDrive\Desktop\INTERN PROJECT\backend\test_debug.py:15:13 - error: Object of type "None" is not subscriptable (reportOptionalSubscript)
+  c:\Users\brake\OneDrive\Desktop\INTERN PROJECT\backend\test_debug.py:20:11 - error: Object of type "None" is not subscriptable (reportOptionalSubscript)
+c:\Users\brake\OneDrive\Desktop\INTERN PROJECT\backend\utils\jwt_helper.py
+  c:\Users\brake\OneDrive\Desktop\INTERN PROJECT\backend\utils\jwt_helper.py:35:21 - error: Cannot assign to attribute "current_user" for class "Request"
+  ┬á┬áAttribute "current_user" is unknown (reportAttributeAccessIssue)
+3 errors, 0 warnings, 0 informations

@@ -1,0 +1,40 @@
+﻿
+> frontend@0.0.0 lint
+> eslint .
+
+
+C:\Users\brake\OneDrive\Desktop\INTERN PROJECT\frontend\src\components\Layout.jsx
+  4:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\brake\OneDrive\Desktop\INTERN PROJECT\frontend\src\components\Sidebar.jsx
+   1:10  error  'useState' is defined but never used. Allowed unused vars must match /^[A-Z_]/u           no-unused-vars
+  17:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u             no-unused-vars
+  30:11  error  'username' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  66:36  error  'Icon' is defined but never used                                                          no-unused-vars
+
+C:\Users\brake\OneDrive\Desktop\INTERN PROJECT\frontend\src\pages\AlertsPage.jsx
+  5:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\brake\OneDrive\Desktop\INTERN PROJECT\frontend\src\pages\AnalyticsPage.jsx
+  5:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\brake\OneDrive\Desktop\INTERN PROJECT\frontend\src\pages\Dashboard.jsx
+  5:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\brake\OneDrive\Desktop\INTERN PROJECT\frontend\src\pages\InventoryPage.jsx
+   6:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  20:14  error  'err' is defined but never used                                                no-unused-vars
+
+C:\Users\brake\OneDrive\Desktop\INTERN PROJECT\frontend\src\pages\LandingPage.jsx
+  4:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\brake\OneDrive\Desktop\INTERN PROJECT\frontend\src\pages\LoginPage.jsx
+  6:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\brake\OneDrive\Desktop\INTERN PROJECT\frontend\src\pages\ProductsPage.jsx
+   5:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  19:14  error  'err' is defined but never used                                                no-unused-vars
+  51:14  error  'err' is defined but never used                                                no-unused-vars
+
+Γ£û 15 problems (15 errors, 0 warnings)
+

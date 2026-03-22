@@ -1,0 +1,136 @@
+/* ============================================================
+   PRINT STYLES – SupplySense Invoice
+   These styles ONLY apply when the user clicks Print Bill.
+   Everything except .printable-invoice is hidden during print.
+   ============================================================ */
+
+@media print {
+  /* Hide the entire app shell */
+  #root {
+    display: none !important;
+  }
+
+  /* Show only the invoice */
+  .printable-invoice {
+    display: block !important;
+  }
+
+  /* Reset page */
+  @page {
+    size: A4 portrait;
+    margin: 18mm 15mm;
+  }
+
+  body {
+    background: #fff !important;
+    color: #000 !important;
+    font-family: 'Inter', 'Segoe UI', Arial, sans-serif !important;
+    font-size: 11pt;
+  }
+
+  /* Invoice wrapper */
+  .printable-invoice {
+    position: fixed !important;
+    inset: 0 !important;
+    z-index: 99999 !important;
+    background: #fff !important;
+    padding: 24px 32px !important;
+    color: #000 !important;
+  }
+
+  /* Store header */
+  .inv-header {
+    border-bottom: 2px solid #000;
+    padding-bottom: 12px;
+    margin-bottom: 16px;
+  }
+
+  .inv-store-name {
+    font-size: 20pt;
+    font-weight: 700;
+  }
+
+  .inv-store-meta {
+    font-size: 9pt;
+    color: #444;
+    margin-top: 2px;
+  }
+
+  /* Invoice meta row */
+  .inv-meta-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 9.5pt;
+    margin-bottom: 16px;
+  }
+
+  /* Items table */
+  .inv-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 10pt;
+    margin-bottom: 12px;
+  }
+
+  .inv-table th,
+  .inv-table td {
+    border: 1px solid #999;
+    padding: 6px 8px;
+    text-align: left;
+  }
+
+  .inv-table th {
+    background: #f0f0f0;
+    font-weight: 600;
+  }
+
+  .inv-table td.num,
+  .inv-table th.num {
+    text-align: right;
+  }
+
+  /* Totals */
+  .inv-totals {
+    margin-left: auto;
+    width: 280px;
+    font-size: 10pt;
+  }
+
+  .inv-totals table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .inv-totals td {
+    padding: 3px 6px;
+  }
+
+  .inv-totals td:last-child {
+    text-align: right;
+    font-weight: 500;
+  }
+
+  .inv-grand-total td {
+    font-size: 13pt;
+    font-weight: 700;
+    border-top: 2px solid #000;
+    padding-top: 6px;
+  }
+
+  /* Footer */
+  .inv-footer {
+    margin-top: 24px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    font-size: 8.5pt;
+    color: #666;
+    text-align: center;
+  }
+
+  /* Hide modal chrome */
+  .inv-modal-overlay,
+  .inv-close-btn,
+  .inv-print-btn {
+    display: none !important;
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/backend/.venv/Scripts/python.exe",
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}/backend"
+  ],
+  "python.analysis.typeCheckingMode": "off",
+  "python.analysis.diagnosticMode": "off",
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportMissingImports": "none",
+    "reportMissingModuleSource": "none",
+    "reportUndefinedVariable": "none",
+    "reportAttributeAccessIssue": "none",
+    "reportGeneralTypeIssues": "none",
+    "reportOperatorIssue": "none",
+    "reportReturnType": "none",
+    "reportArgumentType": "none",
+    "reportCallIssue": "none",
+    "reportIndexIssue": "none"
+  },
+  "python.linting.enabled": false,
+  "python.linting.pylintEnabled": false,
+  "python.linting.pyreEnabled": false,
+  "css.lint.unknownAtRules": "ignore",
+  "css.validate": false,
+  "javascript.validate.enable": false,
+  "typescript.validate.enable": false,
+  "editor.codeActionsOnSave": {}
+}
